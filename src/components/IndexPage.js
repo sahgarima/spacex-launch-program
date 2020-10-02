@@ -15,22 +15,14 @@ export default class IndexPage extends React.Component {
       launch_success: '',
       land_success: ''
     }
-    this.getList("https://api.spaceXdata.com/v3/launches?limit=100");
+    this.getList(this.state.apiUrl);
     this.fetchFilteredData = this.fetchFilteredData.bind(this)
   }
-  //  componentDidMount() {
-  //   this.getList();
-  //   console.log("collinf")
-
-  // }
   createUrl() {
-    console.log("here i am", this.props.data)
-
     let url = this.state.apiUrl;
     if (this.state.launch_success != "") url = url + "&launch_success=" + this.state.launch_success;
     if (this.state.land_success != "") url = url + "&land_success=" + this.state.land_success;
     if (this.state.launch_year != "") url = url + "&launch_year=" + this.state.launch_year;
-    console.log("url is", url)
     this.getList(url);
   }
   fetchFilteredData(key, val) {
@@ -44,7 +36,6 @@ export default class IndexPage extends React.Component {
     } else {
       obj[key] = value
     }
-    console.log("obj is", obj)
     this.setState(obj)
     this.setState(obj, () => {
       this.createUrl()
