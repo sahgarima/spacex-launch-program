@@ -6,9 +6,11 @@ Develop a front-end application which would help users list and browse all launc
 # Development
 
 Clone this repo
-Run npm install
-Run npm run build
-Run npm run start
+-> Run npm install
+
+-> Run npm run build
+
+-> Run npm run start
 
 --------> Here We Are<---------
 
