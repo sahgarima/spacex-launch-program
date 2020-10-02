@@ -1,10 +1,9 @@
 # spacex-launch-program
 
-Spacex Program is fun
+Spacex Program is fun:
+Develop a front-end application which would help users list and browse all launches by SpaceX program.
 
- Develop a front-end application which would help users list and browse all launches by SpaceX program.
-
-Deployment:
+# Development
 
 Clone this repo
 Run npm install
@@ -15,7 +14,7 @@ Run npm run start
 
 Visit http://localhost:3000/
 
-Built With
+# Built With
 
 React.js
 Express.js
