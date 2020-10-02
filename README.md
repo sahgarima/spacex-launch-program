@@ -6,6 +6,7 @@ Develop a front-end application which would help users list and browse all launc
 # Development
 
 Clone this repo
+
 -> Run npm install
 
 -> Run npm run build
@@ -14,10 +15,12 @@ Clone this repo
 
 --------> Here We Are<---------
 
-Visit http://localhost:3000/
+Visit http://localhost:3000/ or
+https://space-launchs-program.herokuapp.com
 
 # Built With
 
 React.js
 Express.js
 React-Router
+
