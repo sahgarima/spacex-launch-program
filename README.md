@@ -15,7 +15,8 @@ Clone this repo
 
 --------> Here We Are<---------
 
-Visit http://localhost:3000/
+Visit http://localhost:3000/ or
+https://space-launchs-program.herokuapp.com
 
 # Built With
 
