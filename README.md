@@ -6,6 +6,7 @@ Develop a front-end application which would help users list and browse all launc
 # Development
 
 Clone this repo
+
 -> Run npm install
 
 -> Run npm run build
@@ -21,3 +22,4 @@ Visit http://localhost:3000/
 React.js
 Express.js
 React-Router
+
