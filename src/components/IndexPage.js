@@ -36,7 +36,6 @@ export default class IndexPage extends React.Component {
     } else {
       obj[key] = value
     }
-    this.setState(obj)
     this.setState(obj, () => {
       this.createUrl()
     });
